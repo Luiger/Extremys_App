@@ -1,0 +1,35 @@
+name: extremys_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+
+  flutter:  
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  provider: ^5.0.0
+  firebase_core: ^2.15.1
+font_awesome_flutter: ^6.4.0
+assets:
+    - assets/imagen.jpg
+splashscreen:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/imagen.jpg
+
+  uses-material-design: true
+
