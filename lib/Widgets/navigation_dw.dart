@@ -10,7 +10,7 @@ class NavigationDW extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Drawer(
         child: Container(
-          color: Color.fromRGBO(50, 55, 205, 1),
+          color: Color.fromARGB(255, 252, 127, 125),
           child: ListView(
             children: <Widget>[
               Container(
@@ -21,14 +21,14 @@ class NavigationDW extends StatelessWidget {
                     buildMenuItem(
                       context,
                       item: NavigationItem.people,
-                      text: 'People',
+                      text: 'Amigos',
                       icon: Icons.people,
                     ),
                     const SizedBox(height: 16),
                     buildMenuItem(
                       context,
                       item: NavigationItem.favourites,
-                      text: 'Favourites',
+                      text: 'Favoritos',
                       icon: Icons.favorite_border,
                     ),
                     const SizedBox(height: 24),
@@ -37,7 +37,7 @@ class NavigationDW extends StatelessWidget {
                     buildMenuItem(
                       context,
                       item: NavigationItem.notifications,
-                      text: 'Notifications',
+                      text: 'Notificaciones',
                       icon: Icons.notifications_outlined,
                     ),
                     const SizedBox(height: 16),
@@ -65,7 +65,7 @@ class NavigationDW extends StatelessWidget {
     final currentItem = provider.navigationItem;
     final isSelected = item == currentItem;
 
-    final color = Colors.white;
+    final color = const Color.fromARGB(255, 0, 0, 0);
 
     return Material(
       color: Colors.transparent,

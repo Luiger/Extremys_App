@@ -7,7 +7,7 @@ class PeoplePage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
         drawer: NavigationDW(),
         appBar: AppBar(
-          title: Text('People'),
+          title: Text('Amigos'),
           centerTitle: true,
           backgroundColor: Colors.green,
         ),

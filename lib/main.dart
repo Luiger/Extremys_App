@@ -11,6 +11,10 @@ import 'page/logout_page.dart';
 import 'page/notification_page.dart';
 import 'page/people_page.dart';
 import 'provider/navigation_provider.dart';
+import 'package:http/http.dart' as http;
+import 'dart:async';
+import 'dart:convert';
+import 'package:extremys_app/post.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +34,7 @@ class MyApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
             useMaterial3: true,
           ),
-          home: principalPage(),
+          home: SplashScreen(),
         ),
       );
 }

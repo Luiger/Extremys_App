@@ -31,9 +31,9 @@ class _PrincipalExampleState extends State<_principalPageState> {
 
       drawer: NavigationDW(),
       appBar: AppBar(
-        title: const Text('AppBar Demo'),
+        title: const Text('Extremys'),
         centerTitle: true,
-        backgroundColor: Colors.green,
+        backgroundColor: Color.fromARGB(255, 250, 99, 96),
       ),
 
       //NavegationBar .... la barra inferior
@@ -51,7 +51,7 @@ class _PrincipalExampleState extends State<_principalPageState> {
           NavigationDestination(
             selectedIcon: Icon(Icons.home),
             icon: Icon(Icons.home_outlined),
-            label: 'Home',
+            label: 'Inicio',
           ),
           NavigationDestination(
             icon: Icon(

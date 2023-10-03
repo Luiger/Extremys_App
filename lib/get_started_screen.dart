@@ -7,7 +7,7 @@ class GetStartedPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Color.fromARGB(255, 252, 127, 125),
         body: Stack(
           children: [
             Center(
